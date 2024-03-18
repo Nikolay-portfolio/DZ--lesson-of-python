@@ -10,7 +10,7 @@ class Mailing:
         self.cost = cost
         self.track = track
          
-    def ok(self):
+    def letter(self):
         print("Отправление", self.track, "из" , self.index , self.city , self.street , self.home , self.kv , 
         "в" ,self.index , self.city , self.street , self.home , self.kv ,"Стоимость " , self.cost , "рублей")
 
